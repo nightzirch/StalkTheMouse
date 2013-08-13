@@ -23,7 +23,8 @@ for(var i = 0; i < $(".stalker").length; i++) {
 			"width": size.x,
 			"height": size.y,
 			"background-image": 'url("img/' + (i+1) + '.png")',
-			"margin": (size.x / -2) + " 0 0 " + (size.y / -2)
+			"margin-left": (size.y / -2),
+			"margin-top": (size.x / -2)
 		}
 	)
 }
