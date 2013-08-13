@@ -1,5 +1,6 @@
 var mouseX = 0, mouseY = 0;
-var speed = 3;
+var speed = 2;
+var size = {x:69,y:74};
 
 $(document).mousemove(function(e){
 	mouseX = e.pageX;
@@ -16,7 +17,15 @@ for(var i = 0; i < $(".stalker").length; i++) {
 		y: 0
 	}
 	stalkers.push(stalker);
-	$(stalker.el).css("z-index", 100-i)
+	$(stalker.el).css(
+		{
+			"z-index": 100-i,
+			"width": size.x,
+			"height": size.y,
+			"background-image": 'url("img/' + (i+1) + '.png")',
+			"margin": (size.x / -2) + " 0 0 " + (size.y / -2)
+		}
+	)
 }
 
 
