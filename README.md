@@ -10,4 +10,4 @@ Christian Grimsgaard ([Visit website](http://www.christiangrimsgaard.net))
 
 
 ## Example
-View example [here](http://stalker.christiangrimsgaard.net)
+View example [here](http://stalker.christiangrimsgaard.net).
