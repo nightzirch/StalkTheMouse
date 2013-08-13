@@ -1,0 +1,14 @@
+html, body {
+	width: 100%;
+	height: 100%;
+	margin: 0;
+	padding: 0;
+}
+
+.stalker {
+	position: absolute;
+	background: url('../img/hei.png');
+	width: 450px;
+	height: 250px;
+	margin: -125px 0 0 -225px;
+}
